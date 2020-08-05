@@ -20,3 +20,7 @@ CREATE TABLE characters (id INTEGER PRIMARY KEY,
   motto TEXT,
   author_id INTEGER
 );
+
+CREATE TABLE subgenres (id INTEGER PRIMARY KEY,
+  name TEXT
+);
